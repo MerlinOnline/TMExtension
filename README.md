@@ -22,7 +22,7 @@ pod 'TMExtension'
 
 ## Author
 
-Merlin, 243203681@qq.com
+Merlin
 
 ## License
 

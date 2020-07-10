@@ -1,0 +1,22 @@
+{
+  "name": "TMExtension",
+  "version": "0.1.0",
+  "summary": "A short description of TMExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Merlin/TMExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Merlin": "243203681@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Merlin/TMExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TMExtension/Classes/**/*"
+}

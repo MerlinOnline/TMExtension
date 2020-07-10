@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		090DDEAFEFCFB23A56DD6A97 /* Pods_TMExtension_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMExtension_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF8C38D1473C97167077320 /* Pods_TMExtension_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TMExtension_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57FA8830A67F5AF38DC10941 /* TMExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TMExtension.podspec; path = ../TMExtension.podspec; sourceTree = "<group>"; };
-		5A074E5DB3350BAF80F6DF4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		57FA8830A67F5AF38DC10941 /* TMExtension.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TMExtension.podspec; path = ../TMExtension.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5A074E5DB3350BAF80F6DF4D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TMExtension_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TMExtension_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,7 +61,7 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		784D2A23DC890A3E4D7237E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		784D2A23DC890A3E4D7237E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC9C96CC7CFC58D510721BDA /* Pods-TMExtension_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMExtension_Example.debug.xcconfig"; path = "Target Support Files/Pods-TMExtension_Example/Pods-TMExtension_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BC37C859E025ABDE19D33DC3 /* Pods-TMExtension_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TMExtension_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TMExtension_Tests/Pods-TMExtension_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				BC37C859E025ABDE19D33DC3 /* Pods-TMExtension_Tests.debug.xcconfig */,
 				DE54C9773AB19C3A3ADF2596 /* Pods-TMExtension_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +258,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

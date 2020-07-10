@@ -1,0 +1,15 @@
+//
+//  MTAppDelegate.h
+//  TMExtension
+//
+//  Created by Merlin on 07/10/2020.
+//  Copyright (c) 2020 Merlin. All rights reserved.
+//
+
+@import UIKit;
+
+@interface MTAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
+
+@end
